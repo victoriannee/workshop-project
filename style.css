@@ -1,21 +1,45 @@
+* {
+/*	border: 1px solid pink;
+*/}
+
+
 body {
 	background-color: black;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
 }
 
 h1 {
 	font-family: 'Bungee', cursive;
-	color: red;
+	color: #ff0033;
 }
 
 h2 {
 	font-family: 'Bungee', cursive;
+	color: #ff0033;
 }
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
+	color: #ff0033;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+
+/* ------Custom Styling------ */
+
+#header {
+/*	border: solid red 1px;
+*/	height: 100px;
+/*	border-bottom: solid #89001b 2px;
+*/	box-shadow: 0px 5px 10px #4e0010;
+}
+
+#header h1 {
+	padding: 15px;
+	border: solid blue 1px;
+	width: 360px;
+	float: left;
 }
