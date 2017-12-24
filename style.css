@@ -26,15 +26,17 @@ h3 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+	color: #ff0033;
 }
 
-/* ------Custom Styling------ */
+/* ------ID Styling------ */
 
 #header {
 /*	border: solid red 1px;
 */	height: 100px;
 /*	border-bottom: solid #89001b 2px;
 */	box-shadow: 0px 5px 10px #4e0010;
+	margin-bottom: 50px;
 }
 
 #header h1 {
@@ -43,3 +45,45 @@ p {
 	width: 360px;
 	float: left;
 }
+
+#content {
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+/* -------Class Styling------- */
+
+.card {
+	display: -webkit-flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 20px;
+	border: solid 2px #4e0010;
+	width: 350px;
+	text-align: center;
+	box-shadow: 3px 3px 5px #270008;
+}
+
+.card img {
+	padding-bottom: 20px;
+	border-bottom: solid 2px #4e0010;
+}
+
+.card h3 {
+	text-align: left;
+	font-size: 1.3em;
+	margin: 5px 0px;
+}
+
+.card p {
+	text-align: left;
+	font-size: 0.8em;
+	margin: 0px;
+}
+
+
+
+
+
